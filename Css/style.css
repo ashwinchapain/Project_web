@@ -4,40 +4,63 @@
 }
 
 nav {
-    height: 100px;
+    height: 60px;
     width: 100%;
-    /* background-color: rgba(15, 15, 15, 0.884); */
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-between;
 
-    position: relative;
+    /* position: relative; */
 
 }
 
+#navbar {
+    height: 50px;
+    width: 100px;
+}
+
 .logo {
-    color: white;
-    font-size: 30px;
+    /* background-color: white; */
+    background-image: url(/photo/images.png);
+    background-size: cover;
+    height: 30px;
+    width: 100%;
+
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border :hover {
+    border: 1.5px solid white;
 }
 
 .delivery {
     color: white;
-    display: inline-block;
-    position: absolute;
-    top: 5px;
-    left: 120px;
 }
 
 #Nepal {
-    text-align: center;
     font-size: 20px;
 }
 
-#selector {
-    color: white;
-    position: absolute;
-    top: 15px;
-    left: 220px;
+#selectorr {
+
+    background-color: white;
+    color: black;
+    height: 31px;
+    width: 50px;
 }
 
-#searchitem {
-    color: blue;
-    height: 100px;
+#search {
+
+    height: 30px;
+    width: 300px;
+
+}
+
+button {
+    height: 30px;
+    width: 50px;
+
 }
