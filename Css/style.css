@@ -3,31 +3,41 @@
     padding: 0%;
 }
 
-header {
-    height: 200px;
+nav {
+    height: 100px;
     width: 100%;
-    background-color: #0f1111;
-    color: white;
-    display: inline-block;
-    position: fixed;
+    /* background-color: rgba(15, 15, 15, 0.884); */
+
     position: relative;
+
 }
 
 .logo {
-    font-size: 30px;
     color: white;
-    position: absolute;
-    top: 10px;
-    border-bottom: 20px;
-    margin-bottom: 20px;
+    font-size: 30px;
 }
 
-.paragrah {
-    position: absolute;
-    top: 30px;
-    display: flex;
-    gap: 20px;
+.delivery {
+    color: white;
     display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 120px;
+}
 
+#Nepal {
+    text-align: center;
+    font-size: 20px;
+}
 
+#selector {
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 220px;
+}
+
+#searchitem {
+    color: blue;
+    height: 100px;
 }
