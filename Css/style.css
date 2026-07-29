@@ -115,3 +115,14 @@ button {
     height: 20px;
     display: flex;
 }
+
+.tag {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(25, 26, 23, 0.836);
+}
+
+#ancor {
+    background-color: white;
+}
