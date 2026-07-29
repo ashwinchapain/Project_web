@@ -39,8 +39,6 @@ nav {
     display: flex;
 }
 
-
-
 #Nepal {
     font-size: 15px;
 
@@ -49,27 +47,50 @@ nav {
 
 #selector {
     display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    width: 620px;
+    height: 40px;
+
 }
+
 
 #selectorr {
+    background-color: #f3f3f3f3;
 
-    background-color: white;
-    color: black;
-    height: 31px;
-    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 42px;
+    border: none;
 }
 
+
+
 #search {
-
-    height: 30px;
-    width: 500px;
-
+    height: 40px;
+    width: 503px;
+    font-size: 1rem;
+    border: none;
+    /* height: 30px;
+    width: 500px; */
 
 }
 
 button {
     height: 30px;
-    width: 50px;
+    width: 51.3px;
+    text-align: center;
+    height: 40px;
+    /* width: 100%; */
+    border: none;
+
+
     background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+
 
 }
