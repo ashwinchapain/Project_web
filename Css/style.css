@@ -120,9 +120,26 @@ button {
     display: flex;
     height: 30px;
     width: 100%;
-    background-color: rgba(25, 26, 23, 0.836);
+    background-color: rgba(25, 26, 24, 0.925);
 }
 
-#ancor {
-    background-color: white;
+.tag {
+    display: flex;
+
+}
+
+.ancor {
+    color: white;
+    gap: 100px;
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+}
+
+.para {
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 65px;
 }
