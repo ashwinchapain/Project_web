@@ -143,3 +143,11 @@ button {
     right: 5px;
     top: 65px;
 }
+
+.background-images {
+    background-image: url("/photo/amazon.jpg");
+    height: 600px;
+    width: 1500px;
+    background-size: cover;
+
+}
