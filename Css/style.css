@@ -149,5 +149,45 @@ button {
     height: 600px;
     width: 1500px;
     background-size: cover;
+    display: flex;
 
+}
+
+.varities {
+    display: flex;
+
+}
+
+
+.game {
+    background-image: url("/photo/game.jpg");
+    background-size: cover;
+    height: 385px;
+    width: 316px;
+    padding: 10px;
+
+
+}
+
+.school {
+    background-image: url("/photo/school.jpg");
+    background-size: cover;
+    height: 385px;
+    width: 316px;
+}
+
+.school-suppilers {
+
+    background-image: url("/photo/schol-suppiler.jpg");
+    background-size: cover;
+    height: 385px;
+    width: 316px;
+
+}
+
+.fasion {
+    background-image: url("/photo/fasion.jpg");
+    background-size: cover;
+    height: 385px;
+    width: 316px;
 }
