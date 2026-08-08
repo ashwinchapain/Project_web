@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.border {
+    border-bottom: 2px solid transparent;
+}
+
+.border:hover {
+    border-bottom: 2px solid salmon;
+    color: salmon
+}
+
+
+.navbar-branch {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.logo {
+    background-image: url(/restaurant_photos/ChatGPT\ Image\ Aug\ 8\,\ 2026\,\ 11_10_26\ PM.png);
+    background-size: cover;
+
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    object-fit: fill;
+
+}
+
+.order {
+    height: 30px;
+    width: 80px;
+    text-decoration: none;
+    border: 2px solid salmo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: salmon;
+    color: black;
+    border-radius: 40%;
+}

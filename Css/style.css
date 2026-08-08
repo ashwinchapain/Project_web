@@ -3,6 +3,14 @@
     padding: 0%;
 }
 
+.border {
+    border-bottom: 2px solid transparent;
+}
+
+.border:hover {
+    border-bottom: 2px solid salmon;
+}
+
 nav {
     height: 60px;
     width: 100%;
@@ -147,7 +155,7 @@ button {
 .background-images {
     background-image: url("/photo/amazon.jpg");
     height: 700px;
-    width: 1500px;
+    width: 100%;
     background-size: cover;
     display: flex;
 
@@ -157,13 +165,16 @@ button {
     display: flex;
     align-items: end;
 
+
 }
+
 
 
 .game {
     background-image: url("/photo/game.jpg");
     background-size: cover;
     height: 300px;
+    width: 300px;
     border: 20px white solid;
     border-top: 30px white solid;
     margin: 20px;
@@ -181,6 +192,7 @@ button {
 
 
 
+
 }
 
 .school-suppilers {
@@ -192,9 +204,6 @@ button {
     border: 20px white solid;
     border-top: 30px white solid;
     margin: 20px;
-
-
-
 }
 
 .fasion {
@@ -206,7 +215,11 @@ button {
     border-top: 30px white solid;
     margin: 20px;
 
+}
 
-
+.Info {
+    font-size: 1.4em;
+    position: absolute;
+    top: 422px;
 
 }
