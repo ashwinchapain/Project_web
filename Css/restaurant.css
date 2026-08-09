@@ -32,13 +32,13 @@
 }
 
 .logo {
-    background-image: url(/restaurant_photos/ChatGPT\ Image\ Aug\ 8\,\ 2026\,\ 11_10_26\ PM.png);
+    background-image: url(/restaurant_photos/images.jpeg);
     background-size: cover;
+    height: 80px;
+    width: 100px;
+    filter: invert(1);
 
-    height: 200px;
-    width: 200px;
-    background-color: white;
-    object-fit: fill;
+
 
 }
 
@@ -53,4 +53,17 @@
     background-color: salmon;
     color: black;
     border-radius: 40%;
+}
+
+.under-main {
+    height: 500px;
+    width: 100%;
+}
+
+.below_nav {
+
+    background-image: url(/restaurant_photos/pizza.jpeg);
+    background-size: cover;
+    height;
+
 }
