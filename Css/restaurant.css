@@ -67,7 +67,10 @@
     background-image: url(/restaurant_photos/pizza.jpeg);
     background-size: cover;
     height: 230px;
-    width: 100%
+    width: 100%;
+    background-position: center;
+    border-bottom: 20px;
+    /* padding-bottom: 30px; */
 }
 
 .welcoming {
@@ -135,7 +138,10 @@
     height: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 8%;
+    gap: 5px;
+
 
 }
 
@@ -143,11 +149,29 @@
 .border2 {
     color: white;
 } */
-
 .border2:hover {
-    color: salmon
+    color: salmon;
 }
 
 .border3:hover {
     color: white;
+}
+
+.main-section {
+    height: 1100px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.top-main-section {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+    background-color: black;
 }
