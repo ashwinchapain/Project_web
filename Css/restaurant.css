@@ -74,10 +74,9 @@
 }
 
 .welcoming {
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(248, 180, 32);
-    font-style: cursive 40deg;
-    font-style: oblique 30deg;
+
 
 }
 
@@ -172,13 +171,12 @@
 }
 
 .boxes {
-    height: 300px;
+    height: 350px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: aliceblue;
-
 }
 
 .upperbox1 {
@@ -188,6 +186,7 @@
     flex-direction: column-reverse;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 40px;
 
 }
 
@@ -198,9 +197,9 @@
     background-image: url(/restaurant_photos/burger.jpg);
     background-size: cover;
     height: 200px;
-    width: 300px;
-    margin-bottom: 10px;
+    width: 200px;
     border-radius: 7%;
+    margin-bottom: 15px;
 
 
 
@@ -210,9 +209,10 @@
     background-image: url(/restaurant_photos/pizza2.jpg);
     background-size: cover;
     height: 200px;
-    width: 250px;
-    margin-bottom: 10px;
+    width: 200px;
     border-radius: 7%;
+    margin-bottom: 15px;
+
 
 }
 
@@ -220,9 +220,10 @@
     background-image: url(/restaurant_photos/pasta.jpg);
     background-size: cover;
     height: 200px;
-    width: 250px;
-    margin-bottom: 10px;
+    width: 200px;
     border-radius: 7%;
+    margin-bottom: 15px;
+
 
 }
 
@@ -230,9 +231,10 @@
     background-image: url(/restaurant_photos/chicken.jpg);
     background-size: cover;
     height: 200px;
-    width: 250px;
-    margin-bottom: 10px;
+    width: 200px;
     border-radius: 7%;
+    margin-bottom: 15px;
+
 
 
 
@@ -242,12 +244,33 @@
     background-image: url(/restaurant_photos/cake.jpg);
     background-size: cover;
     height: 200px;
-    width: 250px;
-    margin-bottom: 10px;
+    width: 200px;
     border-radius: 7%;
+    margin-bottom: 15px;
 
 
 
 }
 
-.para-burger {}
+.price {
+    color: rgb(248, 93, 32);
+
+}
+
+.ordering {
+    height: 50px;
+    width: 170px;
+    border: 3px solid salmon;
+    color: rgb(248, 93, 32);
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.Dish {
+    font-size: 1.75rem;
+    color: salmon
+}
