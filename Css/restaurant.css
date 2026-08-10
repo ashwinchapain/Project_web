@@ -167,11 +167,87 @@
 .top-main-section {
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 30px;
 
 }
 
 .boxes {
-    height: 100px;
-    width: 100px;
-    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+
 }
+
+.upperbox1 {
+
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+
+
+.box1 {
+    background-image: url(/restaurant_photos/burger.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 7%;
+
+
+
+}
+
+.box2 {
+    background-image: url(/restaurant_photos/pizza2.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 7%;
+
+}
+
+.box3 {
+    background-image: url(/restaurant_photos/pasta.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 7%;
+
+}
+
+.box4 {
+    background-image: url(/restaurant_photos/chicken.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 7%;
+
+
+
+}
+
+.box5 {
+    background-image: url(/restaurant_photos/cake.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 7%;
+
+
+
+}
+
+.para-burger {}
