@@ -156,6 +156,10 @@
     color: white;
 }
 
+.border4:hover {
+    color: #00000036;
+}
+
 .main-section {
     height: 1100px;
     width: 100%;
