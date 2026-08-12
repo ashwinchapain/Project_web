@@ -282,8 +282,8 @@
 .photo-of-restarant {
     background-image: url(/restaurant_photos/restarurant.jpg);
     background-size: cover;
-    height: 400px;
-    width: 750px;
+    height: 300px;
+    width: 600px;
     margin-left: 50px;
     margin-top: 40px;
     border-radius: 7%;
@@ -295,7 +295,7 @@
 
 .lowermain {
 
-    height: 450px;
+    height: 400px;
     width: 100%;
     color: black;
     background-color: aliceblue;
@@ -315,7 +315,7 @@
 .chooseus {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
 
 }
@@ -323,9 +323,35 @@
 .description {
     margin-left: 20px;
     font-family: 'poppins' sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.10rem;
 }
 
 .introduction {
-    font-size: 1.25rem;
+    font-size: 1.10rem;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+
+}
+
+.topic {
+    font-size: 1.30rem;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.about-section {
+    margin-left: 100px;
+
+}
+
+.items {
+    height: 200px;
+    width: 200px;
+}
+
+.item3 {
+    margin-right: 20px;
 }
