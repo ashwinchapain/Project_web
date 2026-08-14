@@ -83,7 +83,6 @@
 .main_delicious {
     font-weight: bold;
 
-
 }
 
 .made-with-love {
@@ -396,5 +395,41 @@
     justify-content: center;
     color: black;
 
+
+}
+
+
+.background_photo_for_menu {
+
+    height: 156px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+
+
+
+}
+
+.menubox1 {
+    height: 140px;
+    width: 100%;
+    color: black;
+    display: flex;
+    margin: 5px;
+    margin-right: 5px;
+    /* border: 1px solid #000; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+
+    background-color: aliceblue;
+}
+
+.image_of_menue_items {
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 15px;
+    border-radius: 20px;
 
 }
