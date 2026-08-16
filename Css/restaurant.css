@@ -586,7 +586,7 @@
     text-decoration: none;
 
 } */
-
+/* 
 .mainfooter {
     height: 200px;
     width: 100%;
@@ -607,10 +607,7 @@
     color: antiquewhite;
 }
 
-.footerinformation {
-    font-size: 1rem;
-    margin: 5px;
-}
+
 
 .social_media {
     display: flex;
@@ -656,4 +653,21 @@
     height: 180px;
     width: 300px;
     background-color: aliceblue;
+} */
+
+.mainfooter {
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0f1111;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.footerinformation {
+    font-size: 1rem;
+    margin: 5px;
 }
