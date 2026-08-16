@@ -36,6 +36,7 @@
     background-size: cover;
     height: 80px;
     width: 100px;
+    border-radius: 20px;
     filter: invert(1);
 
 
@@ -165,10 +166,11 @@
 }
 
 .main-section {
-    height: 1100px;
+    height: 1500px;
     width: 100%;
     background-color: white;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .top-main-section {
@@ -547,4 +549,42 @@
 
 .sendmessage {
     margin-top: 20px;
+}
+
+
+footer {
+    background-color: #0f1111;
+    height: 200px;
+    width: 100%;
+    color: white;
+}
+
+.last_footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    text-decoration: none;
+    font-size: 1.75rem;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+
+}
+
+.social_media {
+    color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+
 }
